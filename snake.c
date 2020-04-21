@@ -100,7 +100,7 @@ int collisionManagement(coordinate *head, coordinate *fruit, int *snakeLength, c
 		updateFruit(fruit);
 		*snakeLength = *snakeLength + 1;}
 		
-	if(head->x >= WIDTH || head->x <= 0 || head->y <= 0 || head->y >= HEIGHT)
+	if(head->x >= WIDTH-2 || head->x <= 0 || head->y <= 0 || head->y >= HEIGHT-2)
 		return 1;
 
 	for(int i = 0; i < *snakeLength; i++){
