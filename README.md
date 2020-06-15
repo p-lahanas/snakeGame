@@ -2,7 +2,7 @@
 A snake clone used to help learn C programming for study at University.
 
 ## Information
-- This project was designed for a windows
+- This project was designed for windows
 - The system calls needs to be removed to help performance and improve compatibility
 
 ## Screenshots
